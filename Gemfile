@@ -22,7 +22,14 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # Use Puma as the app server
 gem 'puma'
-gem 'rails_12factor', group: :production
+
+group :development do
+  gem 'capistrano',         require: false
+  gem 'capistrano-rvm',     require: false
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
