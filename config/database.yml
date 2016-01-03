@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: webapp_production
-  username: webapp
+  username: pguser
   password: <%= ENV['WEBAPP_DATABASE_PASSWORD'] %>
