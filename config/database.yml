@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: webapp_production
-  username: postgres
+  username: pguser
   password: 88888888
