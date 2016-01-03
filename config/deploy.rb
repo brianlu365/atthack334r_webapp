@@ -1,9 +1,9 @@
 # Change these
-server '159.203.244.229', port: 8080, roles: [:web, :app, :db], primary: true
+server '159.203.244.229', port: 80, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:brianlu365/atthack334r.git'
+set :repo_url,        'git@github.com:brianlu365/atthack334r_webapp.git'
 set :application,     'webapp'
-set :user,            'deploy'
+set :user,            'root'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
