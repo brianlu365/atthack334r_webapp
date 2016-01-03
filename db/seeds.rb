@@ -5,8 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create!({name: 'brian'})
-User.create!({name: 'grant'})
-RecyclableItem.create!({barcode: "611269991000", points: 2, weight: 1.0, name: "red bull regular"})
-RecyclableItem.create!({barcode: "611269142631", points: 2, weight: 1.0, name: "red bull zero - orange"})
+RecyclableItem.create!({barcode: "04913207", points: 1, weight: 14.9, name: "sprite"})
+RecyclableItem.create!({barcode: "02206316", points: 4, weight: 226, name: "pabst blue ribbon"})
+RecyclableItem.create!({barcode: "611269357011", points: 2, weight: 12.0, name: "red bull - red"})
+RecyclableItem.create!({barcode: "04965802", points: 1, weight: 14.9, name: "diet coke"})
 

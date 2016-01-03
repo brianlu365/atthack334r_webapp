@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/show/:id', to: 'users#show', as: 'user'
+
   root to: 'page#home'
   post 'item/collect', to: 'item#collect'
 
